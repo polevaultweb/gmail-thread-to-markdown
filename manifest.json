@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Gmail Thread to Markdown",
+  "version": "1.0.0",
+  "description": "Copy the open Gmail thread to the clipboard as Markdown, or download it as a .md file.",
+  "permissions": ["activeTab", "scripting", "clipboardWrite"],
+  "action": {
+    "default_title": "Gmail thread to Markdown",
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": { "default": "Alt+Shift+M", "mac": "Alt+Shift+M" }
+    }
+  }
+}
